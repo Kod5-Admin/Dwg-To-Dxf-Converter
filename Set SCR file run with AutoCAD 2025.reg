@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.scr]
+@="AutoCADScript"
+
+[HKEY_CLASSES_ROOT\AutoCADScript]
+@="AutoCAD Script File"
+
+[HKEY_CLASSES_ROOT\AutoCADScript\shell]
+
+[HKEY_CLASSES_ROOT\AutoCADScript\shell\Run on AutoCAD]
+@="Run on AutoCAD"
+
+[HKEY_CLASSES_ROOT\AutoCADScript\shell\Run on AutoCAD\command]
+@="\"C:\\Program Files\\Autodesk\\AutoCAD 2021\\acad.exe\" /b \"%1\""
